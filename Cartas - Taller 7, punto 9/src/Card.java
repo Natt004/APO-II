@@ -1,5 +1,5 @@
-
 public class Card {
+
 	    
 		 String suit,name;
 		 private int points; 
@@ -63,7 +63,7 @@ public class Card {
 		 if(n == "Nine")
 		 return 9;
 		 if(n == "Ace")
-		 return 1;
+		 return 11;
 		 return -1;
 		}
 		
@@ -74,3 +74,4 @@ public class Card {
 		if(i == 4) return "Hearts";
 		return "error";
 		}}
+

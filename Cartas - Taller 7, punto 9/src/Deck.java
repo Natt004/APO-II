@@ -1,4 +1,3 @@
-
 import java.util.Random;
 
 public class Deck {
@@ -38,6 +37,4 @@ public class Deck {
 		}
 	 }
 	}
-
-
 
