@@ -13,35 +13,35 @@ private String model;
 //Constructor
 
 public Vehicle(String model) {
-	numVehicles++;
-	ChassisNo="ch"+numVehicles;
-	this.model = model;
-	this.ChassisNo=ChassisNo;
-	System.out.println("Vehiculo manufacturado\n");
+numVehicles++;
+ChassisNo="ch"+numVehicles;
+this.model = model;
+this.ChassisNo=ChassisNo;
+System.out.println("Vehiculo manufacturado\n");
 }
 
 
 public String getChassisNo() {
-	return ChassisNo;
+return ChassisNo;
 }
 
 
 public void setChassisNo(String chassisNo) {
-	ChassisNo = chassisNo;
+ChassisNo = chassisNo;
 }
 
 
 public String getModel() {
-	return model;
+return model;
 }
 
 
 public void setModel(String model) {
-	this.model = model;
+this.model = model;
 
 }
 
 @Override
 public String toString() {
-	return "Vehicle [ChassisNo=" + ChassisNo + ", model=" + model + "]";
+return "Vehicle [ChassisNo=" + ChassisNo + ", model=" + model + "]";
 }}
