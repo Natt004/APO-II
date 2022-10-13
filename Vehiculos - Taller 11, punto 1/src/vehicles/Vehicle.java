@@ -10,6 +10,8 @@ public static int numVehicles=0;
 private String ChassisNo;
 private String model;
 
+//Constructor
+
 public Vehicle(String model) {
 	numVehicles++;
 	ChassisNo="ch"+numVehicles;
