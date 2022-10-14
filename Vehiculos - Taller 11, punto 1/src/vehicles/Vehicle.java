@@ -1,9 +1,8 @@
 package vehicles;
 
 public class Vehicle {
-	
 //variables estaticas:
-public static String MAKE="Augur";
+public static String Make="Augur";
 public static int numVehicles=0;
 
 //variables de instancia:
