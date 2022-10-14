@@ -26,13 +26,15 @@ System.out.println("El modelo del coche es: "+vc[0].getModel());
 
 System.out.println("El numero del chassis es: " +vc[0].getChassisNo());
 
-//Se muestra en pantalla los datos de la manufactura 2.
+ 
 		
 System.out.println("\n----------------------------");
 		 
 String modelo2="Edict";
 			
 vc[1]=new Vehicle(modelo2);
+
+//Se muestra en pantalla los datos de la manufactura 2.
 		
 System.out.println("El vehiculo es manufacturado por: " +Vehicle.MAKE);
 
