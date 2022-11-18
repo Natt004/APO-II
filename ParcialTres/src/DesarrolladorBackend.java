@@ -43,6 +43,7 @@ public void setListaLenguajes(List listaLenguajes) {
 
 //Se agregan los metodos abstractos de la interface:
 
+//Se calcula el salario del desarrollador Backend:
 @Override
 public double devolverSalario() {
 
